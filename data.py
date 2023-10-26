@@ -13,12 +13,10 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        ]
     ]
 
     START = """
@@ -50,13 +48,6 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot to generate Pyrogram and Telethon string session
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
-
-Framework : [Pyrogram](https://docs.pyrogram.org)
-
-Language : [Python](https://www.python.org)
-
-Developer : @StarkAgent
     """
